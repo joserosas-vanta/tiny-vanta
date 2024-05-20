@@ -1,8 +1,4 @@
-Apologies for the confusion. Here's the updated README with proper markdown formatting:
-
 ## Azure Virtual Machine Fetcher
-
-This small application demonstrates how to fetch virtual machines from an Azure subscription using the Azure SDK for JavaScript.
 
 ### Prerequisites
 
@@ -55,15 +51,3 @@ node src/index.js --verbose
 ```
 
 This will display the name, ID, location, and provisioning state of each virtual machine, in addition to the total count.
-
-### Troubleshooting
-
-If you encounter any issues while running the application, please ensure that:
-
-- Your Azure credentials in the `credentials.yaml` file are correct and up to date.
-- Your Azure AD application (service principal) has the necessary permissions to access the Azure Compute resources (e.g., "Reader" or "Contributor" role).
-- Your Azure subscription is active and has virtual machines provisioned.
-
-If the problem persists, please refer to the error messages in the console output for more information and consult the Azure documentation for further assistance.
-
-This updated README should render correctly with proper markdown formatting, including headings, bullet points, code blocks, and inline code snippets. Let me know if you have any further questions or if there's anything else I can assist you with!
