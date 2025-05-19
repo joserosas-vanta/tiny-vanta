@@ -4,6 +4,8 @@ const { NetworkManagementClient } = require("@azure/arm-network");
 const fs = require("fs");
 const yaml = require("js-yaml");
 
+console.log("test")
+
 function loadCredentials() {
   const yamlFile = fs.readFileSync("config/credentials.yaml", "utf8");
   return yaml.load(yamlFile);
